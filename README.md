@@ -1,28 +1,22 @@
 # Trade'n Offer
-
 **Course:** 01286232 Software Engineering Principles  
 **Program:** Software Engineering Program
-
 * Parin Vessakosol (66011123) Frontend Developer
 * Phurinat Punmerod (66011580) Backend Developer
 * Jirawatt Chimmanee (66011008) Backend Developer
 
 ## Project Description
-
 **Trade'n Offer** is a web-based application designed to redefine the concept of item exchanges by incorporating an Instagram-like feed for item discovery. Users can browse through a continuous stream of items, interact with listings they're interested in, and connect with other users to trade or purchase items. The platform delivers a familiar social media experience but focused on item trading and commerce.
 
 ## Features by Page
-
 ### Home Page
-
 * Swiping interface for browsing available items.
 * Item cards with detailed information and images.
-* Intuitive like/dislike system for expressing interest.
+* Intuitive like system for expressing interest.
 * Real-time updates of new available items.
 * User profile access and notifications display.
 
 ## Features
-
 * **Item Trading System**: Trade items directly instead of selling or purchasing them with money
 * **Real-Time Chat**: Communicate instantly with matched users via Firebase messaging
 * **Purchase Functionality**: Option to buy items directly if the owner has enabled purchasing
@@ -30,7 +24,6 @@
 * **Interactive UI**: Intuitive swiping interface to express interest in items
 
 ## Technology Stack
-
 ### Backend
 * **FastAPI** (Python): Handles API development and trade logic processing
 * **ZODB** (Zope Object Database): Flexible object storage for managing item metadata
@@ -51,7 +44,6 @@
 * **ZODB Object Database**: Utilized for storing complex item metadata including images and detailed item conditions
 
 ## 📋 Project Structure
-
 The project is organized into two main directories:
 
 ### Backend
@@ -63,3 +55,21 @@ The project is organized into two main directories:
 * **Templates**: HTML templates for different pages (login, trade offers, profile, etc.)
 * **Static**: CSS styling and PyScript code for frontend logic
 * **Components**: Reusable UI components like chat interfaces and item cards
+
+## Screen Captures
+
+* Home Page
+  
+  ![Home Page](screenshots/home.png)
+
+* Chat Interface
+  
+  ![Chat Interface](screenshots/chat.png)
+
+* User Profile
+  
+  ![User Profile](screenshots/profile.png)
+
+* My Items Management
+  
+  ![My Items](screenshots/items.png)
