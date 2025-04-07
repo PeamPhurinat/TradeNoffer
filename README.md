@@ -65,6 +65,7 @@ The project is organized into two main directories:
 * Chat Interface
   
   ![Chat Interface](screenshots/chat.png)
+  ![Chat Interface](screenshots/chatdetail.png)
 
 * User Profile
   
