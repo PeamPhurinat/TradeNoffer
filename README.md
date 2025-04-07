@@ -1,7 +1,5 @@
 # Trade'n Offer
 
-## SE Assistant
-
 **Course:** 01286232 Software Engineering Principles  
 **Program:** Software Engineering Program
 
