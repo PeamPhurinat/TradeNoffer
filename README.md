@@ -4,12 +4,12 @@
 **Program:** Software Engineering Program
 
 * Parin Vessakosol (66011123) Frontend Developer
-* Jirawatt Chimmanee (66011008) Backend Developer
 * Phurinat Punmerod (66011580) Backend Developer
+* Jirawatt Chimmanee (66011008) Backend Developer
 
 ## Project Description
 
-**Trade'n Offer** is a web-based application designed to redefine the concept of item exchanges by incorporating a swiping mechanism similar to popular dating apps, but for trading items instead. It provides a platform for users to trade or sell items through an intuitive interface built with modern web technologies.
+**Trade'n Offer** is a web-based application designed to redefine the concept of item exchanges by incorporating an Instagram-like feed for item discovery. Users can browse through a continuous stream of items, interact with listings they're interested in, and connect with other users to trade or purchase items. The platform delivers a familiar social media experience but focused on item trading and commerce.
 
 ## Features by Page
 
@@ -45,7 +45,12 @@
 ### Real-Time Features
 * **Firebase**: Handles real-time chat messages and notifications
 
-## Project Structure
+### Database Architecture
+* **Relational Database (MySQL)**: Used for structured data storage including user accounts, item listings, trade offers, and wishlist management
+* **Firebase Realtime Database**: Implemented for real-time chat functionality, storing message history and enabling instant communication between matched users
+* **ZODB Object Database**: Utilized for storing complex item metadata including images and detailed item conditions
+
+## 📋 Project Structure
 
 The project is organized into two main directories:
 
