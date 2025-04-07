@@ -43,7 +43,7 @@
 * **Firebase Realtime Database**: Implemented for real-time chat functionality, storing message history and enabling instant communication between matched users
 * **ZODB Object Database**: Utilized for storing complex item metadata including images and detailed item conditions
 
-## 📋 Project Structure
+## Project Structure
 The project is organized into two main directories:
 
 ### Backend
